@@ -10,3 +10,6 @@
 .mail-modal-email{font:500 clamp(19px,5vw,24px) var(--mono);letter-spacing:.02em;margin:0 0 28px;word-break:break-all}
 .mail-modal-copy{display:inline-block;border:1px solid var(--ink);border-radius:40px;padding:10px 24px;font-size:12px;font-family:var(--sans);background:none;color:var(--ink);cursor:pointer;transition:background .2s,color .2s}
 .mail-modal-copy:hover{background:var(--ink);color:var(--paper)}
+html{scrollbar-gutter:stable}
+:focus-visible{outline:2px solid var(--red);outline-offset:2px}
+.mail-modal-x{color:#52514c}

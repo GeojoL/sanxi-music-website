@@ -17,8 +17,8 @@
       <svg class="brand-mark" viewBox="0 0 36 32" aria-hidden="true"><path class="mark-red" d="M11 6h16l-3 4H8z"/><path class="mark-dark" d="M7 14h24l-3 4H4z"/><path class="mark-red" d="M3 22h32l-3 4H0z"/></svg>
       <span class="brand-name"><b>三喜音乐</b><small>SANXI MUSIC</small></span>
     </a>
-    <button class="menu-toggle" aria-label="打开导航" aria-expanded="false"><span></span><span></span></button>
-    <nav class="main-nav" aria-label="主导航">
+    <button class="menu-toggle" aria-label="打开导航" aria-expanded="false" aria-controls="mainNav"><span></span><span></span></button>
+    <nav class="main-nav" id="mainNav" aria-label="主导航">
       <a href="#about">关于三喜</a><a href="#business">版权业务</a>
       <a class="nav-contact" href="#contact">商务合作 <span>↗</span></a>
     </nav>
@@ -33,10 +33,10 @@
         <p class="hero-desc">从创作出发，让每一份值得被听见的声音，<br class="desktop-only" />在更大的世界里找到它的位置。</p>
         <a class="round-link" href="#about" aria-label="向下浏览关于三喜">向下浏览 <span>↓</span></a>
       </div>
-      <div class="hero-art" aria-label="三喜音乐抽象品牌视觉">
+      <div class="hero-art" aria-hidden="true">
         <div class="art-grid"></div><div class="art-disc disc-one"></div><div class="art-disc disc-two"></div>
         <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
-        <svg class="hero-logo-mark" viewBox="0 0 36 32" aria-label="三喜音乐标志"><path d="M11 6h16l-3 4H8z"/><path d="M7 14h24l-3 4H4z"/><path d="M3 22h32l-3 4H0z"/></svg>
+        <svg class="hero-logo-mark" viewBox="0 0 36 32" role="img" aria-label="三喜音乐标志"><path d="M11 6h16l-3 4H8z"/><path d="M7 14h24l-3 4H4z"/><path d="M3 22h32l-3 4H0z"/></svg>
         <div class="art-index">SX—001<br /><small>THREE / JOY / SOUND</small></div>
         <div class="art-caption">声音<br />正在发生<span>↗</span></div>
       </div>
@@ -85,7 +85,7 @@
       <p class="mail-modal-kicker">BUSINESS INQUIRIES</p>
       <p class="mail-modal-label">商务合作邮箱</p>
       <p class="mail-modal-email">s@sxwhsz.com</p>
-      <button class="mail-modal-copy" id="mailCopy" type="button">复制邮箱</button>
+      <button class="mail-modal-copy" id="mailCopy" type="button" aria-live="polite">复制邮箱</button>
     </div>
   </div>
   <script src="script.js"></script>
