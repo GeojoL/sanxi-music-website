@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="72" viewBox="0 0 360 72" role="img" aria-labelledby="title desc">
+  <title id="title">三喜音乐 SANXI MUSIC</title>
+  <desc id="desc">由三道递进横线构成的几何标记与三喜音乐中英文品牌字样。</desc>
+  <g transform="translate(8 18)">
+    <path fill="#e84536" d="M22 0h32l-6 8H16z"/>
+    <path fill="#171715" d="M14 16h48l-6 8H8z"/>
+    <path fill="#e84536" d="M6 32h64l-6 8H0z"/>
+  </g>
+  <text x="96" y="40" fill="#171715" font-family="Noto Sans SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="700" letter-spacing="3">三喜音乐</text>
+  <text x="98" y="59" fill="#585750" font-family="Manrope, Arial, sans-serif" font-size="9" font-weight="600" letter-spacing="3.4">SANXI MUSIC</text>
+</svg>
